@@ -1,7 +1,16 @@
 
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
+/**
+ *
+ * @author Dinesh
+ */
 public class katafizzbuzzTest {
     
     
@@ -21,8 +30,14 @@ public class katafizzbuzzTest {
              System.out.println(i);
          }
          System.out.println("Fizz");
-        
-      
+         try{
+        Assert.assertTrue(test1.isDivisibleby_5(i));
+         }
+         catch(AssertionError e2)
+         {
+             System.out.println(i);
+         }
+         System.out.println("Buzz");
          
      }
 
