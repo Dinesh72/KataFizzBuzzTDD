@@ -14,7 +14,7 @@ class  fizzbuzz{
          else
          return false;
     }
-    public boolean isDivisibleby_3and5(int number)
+    public static boolean isDivisibleby_3and5(int number)
 {
     Boolean status=false;
     Integer checknumber;
@@ -30,7 +30,7 @@ class  fizzbuzz{
     return status;
     
 }
-public boolean isDivisibleby_3(int number)
+public static boolean isDivisibleby_3(int number)
 {
     Boolean status=false;
     Integer checknumber;
@@ -46,7 +46,7 @@ public boolean isDivisibleby_3(int number)
     return status;
     
 }
-public boolean isDivisibleby_5(int number)
+public static boolean isDivisibleby_5(int number)
 {
     Boolean status=false;
     Integer checknumber;
