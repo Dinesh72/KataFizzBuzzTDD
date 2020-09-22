@@ -33,3 +33,38 @@ class  fizzbuzz{
 //    return status;
     
 }
+public static boolean isDivisibleby_3(int number)
+{
+    return ((number%3==0?true:false));
+//    Boolean status=false;
+//    Integer checknumber;
+//   if(number%3==0)
+//   {
+//       status=true;
+//   }
+//   else
+//   {
+//       status=false;
+//   }
+//    
+//    return status;
+    
+}
+public static boolean isDivisibleby_5(int number)
+{
+    return ((number%5==0?true:false));
+//    Boolean status=false;
+//    Integer checknumber;
+//   if(number%5==0)
+//   {
+//       status=true;
+//   }
+//   else
+//   {
+//       status=false;
+//   }
+//    
+//    return status;
+//    
+}
+}
